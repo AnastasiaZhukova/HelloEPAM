@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Toast toastHelloEpam= Toast.makeText(getApplicationContext(),"Hello EPAM!",Toast.LENGTH_SHORT);
+        Toast toastHelloEpam= Toast.makeText(getApplicationContext(),"Hello epam!",Toast.LENGTH_SHORT);
         toastHelloEpam.show();
     }
 }
